@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func TestGetApiKey(t *testing.T) {
+func TestGetApiKey(t *testing.T){
 	tests := []struct {
 		name    string
 		headers http.Header
@@ -47,5 +47,4 @@ func TestGetApiKey(t *testing.T) {
 				t.Errorf("GetAPIKey() = %v, want %v", got, tt.want)
 			}
 		})
-	}
-}
+	} }
